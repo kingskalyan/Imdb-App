@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "/efEbf+g0sEZaIEUjcxBV3p5hMOgbrBHuIEMLyOlMJrSt8MLszE/N9Bp9Y9g22cUN5rvQxszPkhzp4uEr3gt7Q==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Kalyan\\RestApi\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Ref"
+    }
+  ]
+}

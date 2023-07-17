@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6jjyNyrmdhrYa5T/BsW62pahx6hlUjJVg4kFxprxmgM0MeSQtcMkLX+ASo9d4CwiohC4DpF9XNrHeJaSv3Mcyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kalyan\\RestApi\\Service\\Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kalyan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Kalyan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Kalyan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

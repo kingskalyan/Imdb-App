@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DataBase/1.0.0": {
+        "dependencies": {
+          "CustomValidation": "1.0.0"
+        },
+        "runtime": {
+          "DataBase.dll": {}
+        }
+      },
+      "CustomValidation/1.0.0": {
+        "runtime": {
+          "CustomValidation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomValidation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

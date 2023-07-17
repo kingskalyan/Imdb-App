@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.AspNetCore.Mvc.Testing >= 5.0.7",
+      "Microsoft.Extensions.Hosting.Abstractions >= 7.0.0",
+      "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "Moq >= 4.16.1",
+      "SpecFlow.xUnit >= 3.9.74",
+      "coverlet.collector >= 3.1.2",
+      "xunit >= 2.4.2",
+      "xunit.runner.visualstudio >= 2.4.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kalyan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Kalyan\\RestApi\\RestApi.Tests\\RestApi.Tests.csproj",
+      "projectName": "RestApi.Tests",
+      "projectPath": "C:\\Users\\Kalyan\\RestApi\\RestApi.Tests\\RestApi.Tests.csproj",
+      "packagesPath": "C:\\Users\\Kalyan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kalyan\\RestApi\\RestApi.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kalyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Kalyan\\RestApi\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Kalyan\\RestApi\\Domain\\Domain.csproj"
+            },
+            "C:\\Users\\Kalyan\\RestApi\\RestApi\\RestApi.csproj": {
+              "projectPath": "C:\\Users\\Kalyan\\RestApi\\RestApi\\RestApi.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Testing": {
+            "target": "Package",
+            "version": "[5.0.7, )"
+          },
+          "Microsoft.Extensions.Hosting.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.3.2, )"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.16.1, )"
+          },
+          "SpecFlow.xUnit": {
+            "target": "Package",
+            "version": "[3.9.74, )"
+          },
+          "coverlet.collector": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.4.2, )"
+          },
+          "xunit.runner.visualstudio": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.4.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Ref"
+    }
+  ]
+}
